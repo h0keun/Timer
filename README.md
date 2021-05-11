@@ -59,8 +59,9 @@
     onPause() -> soundPool.autoPause()
     onDestroy() -> soundPool.release()
     ```
-  - SeekBar Custom
-    seekBar.setOnSeekBarChangeListener 이외에 사용자의 터치에 따라 발생하는 이벤트들은 수학적인 부분이 주를 이루기때문에 코드자체를 살펴보는것이 좋음!
-    countdowntimer에 대해선 공식문서를 참조!
+  - Custom SeekBar  
+    기능적인 부분을 담당하는 seekBar.setOnSeekBarChangeListener, countdowntimer 등 은 공식문서를 참조하는 편이 좋고, 
+    이외의 부분들은 사용자의 터치에 따라 발생하는 이벤트들에대한 처리이기 때문에 수학적인 로직이 주를 이룬다.
+    때문에 코드를 보며 확인하는편이 좋을듯 함!
     
 💡 Kotlin에서 object : 싱글턴패턴?? 익명객체??
