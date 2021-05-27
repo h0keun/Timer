@@ -1,5 +1,6 @@
-### Timer - 뽀모도로 타이머
+```💡 FastCampus 강의 수강 및 정리```
 
+### Timer - 뽀모도로 타이머
 + ConstraintLayout
 + SeekBar
 + CountDownTimer
@@ -11,6 +12,8 @@
 ### 기능
 + Mp4 재생(째깍소리, 알람소리) : Mp3나 Mp4 등의 음악파일은 res/raw 폴더 생성후 이곳에 추가
 + SeekBar custom(tickMark, thumb, progressDrawable) 
+
+<img src="https://user-images.githubusercontent.com/63087903/119834410-e3747280-bf3a-11eb-864e-d7e6e9ee92dd.jpg" width="200" height="430">
 
 ### [2021-05-11]
 + layout.xml
